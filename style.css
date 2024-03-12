@@ -11,17 +11,42 @@ body {
   background-color: darkslateblue;
 }
 
+h3 {
+  color: grey;
+}
+
 .container {
   background-color: aliceblue;
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   margin: 20vh auto;
   border-radius: 10px;
   display: flex;
+  flex-grow: 3;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
 }
 
 .btn {
   width: 200px;
-  height: 20px;
+  height: 50px;
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  font-size: large;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: 3px 3px 3px black; /* Add shadow */
+}
+
+.joke {
+  font-size: x-large;
+  font-weight: 500;
+  text-align: center;
 }
